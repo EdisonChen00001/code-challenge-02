@@ -183,8 +183,8 @@ input::placeholder {
   color: #fff;
 }
 .footer {
-  position: absolute;
-  bottom: 10px;
+  position: relative;
+  bottom: -50px;
   width: 100%;
 }
 #copy_footer {
@@ -219,7 +219,8 @@ input::placeholder {
     right: 650px;
   }
   .footer {
-    bottom: -200px;
+    right: 80px;
+    bottom: -400px;
   }
 
   #nav-list li a,
@@ -244,4 +245,35 @@ input::placeholder {
   #footer-list li a {
     padding: 5px 5px 0px 5px;
   }
+  .footer {
+    right: 0px;
+    bottom: -400px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .footer {
+    right: -100px;
+    bottom: -400px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #stamp{
+    width: 100%
+  }
+  .footer {
+    right: -170px;
+    bottom: -400px;
+  }
+  .left_section{
+    bottom: -150px;
+    right: 0px;
+  }
+  .contact, .help, .terms, .privacy{
+    width: 100%
+  }
+ #nav-list{
+   position: relative;
+   right: -137px;
+ }
+
 }
