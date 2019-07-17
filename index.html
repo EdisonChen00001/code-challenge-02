@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>code challenge</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="nav-list" class="ul_list">
+          <li id="stamp">
+            <a href="#">Stamp</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Integrations</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#"> Coontacts</a>
+          </li>
+          <li id="menu_icon">
+            <div>
+              <div class="menu_icon"></div>
+              <div class="menu_icon"></div>
+              <div class="menu_icon"></div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="main">
+      <div id="left-container">
+        <h1 id="context-title">Simple Way to Organize Your Inspitations</h1>
+        <p id="context-paragraph">
+          I think what motivates people is not great hate, but great love for
+          other people.
+        </p>
+      </div>
+      <div id="right-container">
+        <div id="space_div"></div>
+        <h2 id="signup_header">SIGN UP FOR</h2>
+        <form>
+          <div class="form_container">
+            <input
+              id="name_input"
+              type="text"
+              placeholder="Name"
+              name="uname"
+              aria-label="Name"
+              required
+            />
+            <input
+              id="email_input"
+              type="email"
+              placeholder="Email"
+              name="email"
+              aria-label="Email"
+              required
+            />
+            <input
+              type="password"
+              id="pwd"
+              placeholder="Enter Password"
+              name="psw"
+              aria-label="Password"
+              required
+            />
+            <div class ="show_pwd" onclick="show()">
+              <img src="https://i.stack.imgur.com/Oyk1g.png" id="EYE" />
+            </div>
+            <button id="signup_btn" type="submit">
+              Sign up<span id="cta_btn">></span>
+            </button>
+            <div id="form_bottom_section">
+              <div>By clicking "Sign up" I agree to our</div>
+              <div>Terms of Service</div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="row">
+        <ul id="footer-list" class="ul_list">
+          <li class="left_section">
+            <a id="copy_footer" href="#"
+              >&copy; 2016 Stamp. All Rights Reserved</a
+            >
+          </li>
+          <li class="contact"><a href="#">CONTACT</a></li>
+          <li class="help"><a href="#">HELP</a></li>
+          <li class="terms"><a href="#">TERMS OF USE</a></li>
+          <li class="privacy"><a href="#">PRIVACY POLICY</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
